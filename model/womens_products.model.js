@@ -32,3 +32,5 @@ const womenProductsSchema = mongoose.Schema({
 
 const womenProductsModel = new mongoose.model("women_products", womenProductsSchema);
 module.exports = womenProductsModel;
+
+
