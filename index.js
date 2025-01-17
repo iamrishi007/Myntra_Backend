@@ -8,6 +8,8 @@ const mens_product_router = require("./routes/mens_product.router")
 const womens_product_router = require("./routes/womens_products.router")
 const app = express();
 const PORT = process.env.PORT || 3000;
+const cors = require("cors");
+
 
 app.use(express.json())
 app.use(express.json());
